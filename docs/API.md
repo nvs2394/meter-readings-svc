@@ -8,6 +8,8 @@ After starting the application, you can access the full Swagger API documentatio
 
 Upload a CSV file containing meter readings in NEM12 format.
 
+Test file in: /docs/data/nem12_data.csv
+
 ```bash
 bash
 curl -X POST 'http://localhost:3000/v1/meter-readings/upload' \
